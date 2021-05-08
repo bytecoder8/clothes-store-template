@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Clothes Store</title>
+</head>
+<body>
+  <header class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-2">
+        <a href="/" class="logo">
+          <img src="images/logo.svg" width="128" alt="logo" class="logo__image">
+        </a>
+      </div>
+      <div class="col-6">
+        <nav>
+          <ul class="navigation d-flex justify-content-around align-items-center">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Womens</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Mens</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Goods</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Accessories</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Brands</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Blog</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-2 d-flex justify-content-end">
+        <button class="cart-button">
+          <img src="images/cart.svg" alt="cart icon" width="18" class="cart-button__icon" />
+          <span class="cart-button__text">Cart</span>
+        </button>
+      </div>
+    </div>
+    <!-- /.row -->
+  </header>
+  <div class="slider">
+    <section class="slide slide--1">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 offset-1">
+            <span class="slide__label">Bestseller</span>
+            <h2 class="slide__title">Sweater Choker Neck</h2>
+            <p class="slide__text">
+              Women’s pearl basic knit sweater with a round neck. 
+              Available in several colours. Free shipping to stores.
+            </p>
+            <button class="slide__buy-button">
+              <span class="slide__buy-price">$319</span>
+              <span class="slide__buy-text">Shop now</span>
+            </button>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.slide -->
+
+    <div class="slider__nav">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-1">
+            <button class="slider__button">
+              <img src="images/arrow-prev.svg" width="60" alt="arrow previous">
+            </button>
+          </div>
+          <div class="col-1">
+            <button class="slider__button">
+              <img src="images/arrow-next.svg" width="60" alt="arrow next">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.slider -->
+</body>
+</html>

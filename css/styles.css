@@ -1,0 +1,133 @@
+.body {
+  font-family: Lato, 'sans-serif';
+}
+
+.navigation {
+  list-style: none;
+  margin: 23px 0;
+  padding: 0;
+  /* min-height: 70px; */
+}
+
+.navigation__link {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  /* line-height: 20px; */
+
+  color: #939699;
+}
+
+
+.cart-button {
+  background: #4592FF;
+  border: none;
+  border-radius: 20px;
+
+  padding: 10px 20px;
+  font-family: Lato, 'sans-serif';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.cart-button__icon {
+  margin-right: 7px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider__nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.slider__button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.slide {
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+
+.slide--1 {
+  background: #B4D1E0;
+  background-image: url('../images/slide-1.png');
+  background-repeat: no-repeat;
+  background-position: top right 36%;
+
+}
+
+.slide__label {
+  background: #3DC47E;
+  border-radius: 3px;
+  padding: 5px 12px;
+  color: #fff;
+
+  font-family: Lato;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.slide__title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 70px;
+
+  color: #262D33;
+
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.slide__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #4B5157;
+
+  max-width: 335px;
+  margin-bottom: 40px;
+}
+
+.slide__buy-button {
+  background: #4592FF;
+  border: none;
+  border-radius: 20px;
+
+  padding: 10px 25px;
+  color: #fff;
+
+  font-family: Lato, 'sans-serif';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.slide__buy-price {
+  margin-right: 7px;
+}
