@@ -13,7 +13,7 @@
   <title>Clothes Store</title>
 </head>
 <body>
-  <header class="container">
+  <header class="container top-header">
     <div class="row justify-content-between align-items-center">
       <div class="col-2">
         <a href="/" class="logo">
@@ -45,9 +45,9 @@
         </nav>
       </div>
       <div class="col-2 d-flex justify-content-end">
-        <button class="cart-button">
-          <img src="images/cart.svg" alt="cart icon" width="18" class="cart-button__icon" />
-          <span class="cart-button__text">Cart</span>
+        <button class="button">
+          <img src="images/cart.svg" alt="cart icon" width="18" class="button__icon" />
+          <span class="button__text">Cart</span>
         </button>
       </div>
     </div>
@@ -64,9 +64,9 @@
               Women’s pearl basic knit sweater with a round neck. 
               Available in several colours. Free shipping to stores.
             </p>
-            <button class="slide__buy-button">
-              <span class="slide__buy-price">$319</span>
-              <span class="slide__buy-text">Shop now</span>
+            <button class="slide__buy-button button">
+              <span class="button__icon">$319</span>
+              <span class="button__text">Shop now</span>
             </button>
           </div>
         </div>
@@ -91,8 +91,50 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><!-- /.slider__nav -->
   </div>
   <!-- /.slider -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="card card--1">
+          <div class="card__title">
+            Fashion Month Ready in Capital Shop
+          </div>
+          <div class="card__text">
+            Bags & Acsessories & Lingerie & Sportswear &
+            Beauty & Swimwear
+          </div>
+          <button class="card__button button">
+            <span class="button__text">View all</span>
+            <img src="images/arrow-right.svg" width="15" alt="arrow" class="button__icon button__icon--right">
+          </button>
+        </div><!-- ./card--1 -->
+      </div>
+      <div class="col-6">
+        <div class="card card--2">
+          <div class="card__title card__title--light">
+            Catch the Sun: Spring Break Styles From $5.99
+          </div>
+          <div class="card__text card__text--light">
+            Sweaters & Hoodies & Puffer Jackets & Coats and Jackets & Knit
+          </div>
+          <button class="card__button button">
+            <span class="button__text">View all</span>
+            <img src="images/arrow-right.svg" width="15" alt="arrow" class="button__icon button__icon--right">
+          </button>
+        </div><!-- ./card--2 -->
+      </div>
+      <div class="col-9">
+        Card 3
+      </div>
+      <div class="col-3">
+        Card 4
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
 </body>
 </html>
