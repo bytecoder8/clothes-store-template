@@ -2,6 +2,10 @@
   font-family: Lato, 'sans-serif';
 }
 
+a:hover {
+  color: #4592FF;
+}
+
 .button {
   background: #4592FF;
   border: none;
@@ -223,4 +227,184 @@
   font-size: 14px;
   line-height: 20px;
   color: #fff;
+}
+
+
+.section-title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #262D33;
+}
+
+.view-more {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #262D33;
+  text-decoration: none;
+
+  padding: 10px 0 10px 10px;
+}
+
+.product {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 70px;
+}
+
+.product__label {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+
+.product__image {
+  margin-bottom: 15px;
+  max-width: 190px;
+}
+
+.product__title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+
+  color: #262D33;
+
+  margin-bottom: 5px;
+}
+
+.product__description {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #4B5157;
+
+  margin-bottom: 20px;
+}
+
+.product__price {
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #262D33;
+}
+
+
+.footer {
+  /* padding-top: 45px;
+  padding-bottom: 40px; */
+
+  background-color: #8F79D4;
+  color: #fff;
+}
+
+.footer__top {
+  padding-top: 45px;
+  padding-bottom: 44px;
+  
+}
+
+.footer__menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.footer__menu-link {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #fff;
+  text-decoration: none;
+}
+.footer__menu-link:hover {
+  color: #fff;
+}
+
+.footer__text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #E7D9FF;
+}
+
+.social-link {
+  text-decoration: none;
+}
+
+.social-link:not(:last-child) {
+  margin-right: 15px;
+}
+
+.footer__social {
+  margin-left: 25px;
+}
+
+.footer__copyright {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #E7D9FF;
+
+  text-align: right;
+}
+
+.footer__separator {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px #D8BFFF solid;
+}
+
+.footer__bottom {
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.payments {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.payments__item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer__text-up {
+  font-weight: 900;
+  margin-right: 15px;
+}
+
+.footer__button-up {
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
 }
