@@ -78,8 +78,6 @@ a:hover {
 
 .slide {
   padding-top: 90px;
-  padding-bottom: 110px;
-
   min-height: 570px;
 }
 
@@ -416,4 +414,28 @@ a:hover {
   background: none;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .slide {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .slider__button {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .slide__title {
+    font-size: 36px;
+    line-height: 1.3;
+  }
+
+  .card {
+    padding: 30px;
+    min-height: 300px;
+  }
 }
