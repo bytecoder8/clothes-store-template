@@ -263,7 +263,6 @@ a:hover {
   position: relative;
   text-align: center;
   padding: 30px;
-  margin-bottom: 70px;
 }
 
 .product__label {
@@ -312,9 +311,7 @@ a:hover {
 
 
 .footer {
-  /* padding-top: 45px;
-  padding-bottom: 40px; */
-
+  margin-top: 70px;
   background-color: #8F79D4;
   color: #fff;
 }
@@ -444,4 +441,20 @@ a:hover {
     padding: 30px;
     min-height: 300px;
   }
+
+  .footer {
+    margin-top: 40px;
+  }
+
+  .footer__copyright {
+    text-align: center;
+  }
+  .footer__menu-item {
+    margin-right: 0 !important;
+    text-align: center;
+  }
+  .footer__bottom {
+    padding-bottom: 20px;
+  }
+
 }
