@@ -420,11 +420,17 @@ a:hover {
   .slide {
     background-size: cover;
   }
+  .card--3 {
+    background-size: cover;
+  }
 }
 
 @media (max-width: 992px) {
   .slider__button {
     display: none;
+  }
+  .card--3 {
+    margin-bottom: 30px;
   }
 }
 
