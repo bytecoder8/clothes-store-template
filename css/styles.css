@@ -448,6 +448,15 @@ a:hover {
   .slide {
     background-size: cover;
   }
+  .slide__title {
+    text-shadow: 0 0 1px #4B5157;
+  }
+  .slide__text {
+    background-color: rgba(0,0,0,.3);
+    padding: 1rem;
+    color: #f3f8ff;
+    border-radius: 8px;
+  }
   .card--3 {
     background-size: cover;
   }
