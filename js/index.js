@@ -15,4 +15,19 @@
     event.preventDefault()
     window.scrollTo(0, 0)
   })
+
+  var nav = document.querySelector('.navigation')
+  var navWrapper = document.querySelector('.navigation-wrapper')
+  var navToggler = document.querySelector('.navbar-toggler')
+  var cartWrapper = document.querySelector('.cart-wrapper')
+  navToggler.addEventListener('click', function (event) {
+    event.preventDefault()
+    if (nav.classList.toggle('navigation--vertical')) {
+      navWrapper.classList.remove('d-none')
+      cartWrapper.classList.add('d-none')
+    } else {
+      navWrapper.classList.add('d-none')
+      cartWrapper.classList.remove('d-none')
+    }
+  })
 })()

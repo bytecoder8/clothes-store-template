@@ -16,14 +16,17 @@
 <body>
   <header class="container top-header px-3 px-sm-0">
     <div class="row justify-content-between align-items-center">
-      <div class="col-6 col-lg-2">
+      <div class="col-8 col-lg-2">
+        <button class="navbar-toggler d-lg-none" aria-label="Toggle navigation">
+          <span class="navbar-toggler__icon"></span>
+        </button>
         <a href="/" class="logo">
           <img src="images/logo.svg" width="128" alt="logo" class="logo__image">
         </a>
       </div>
-      <div class="col-lg-6 d-none d-lg-block">
+      <div class="col-lg-6 d-lg-block d-none navigation-wrapper">
         <nav>
-          <ul class="navigation d-flex justify-content-around align-items-center">
+          <ul class="navigation d-lg-flex justify-content-around align-items-center" id="navbarMenu">
             <li class="navigation__item">
               <a href="#" class="navigation__link">Womens</a>
             </li>
@@ -45,13 +48,13 @@
           </ul>
         </nav>
       </div><!-- /menu -->
-      <div class="col-6 col-lg-2 d-flex justify-content-end">
-        <button class="button">
+      <div class="col-4 col-lg-2 d-flex justify-content-end cart-wrapper">
+        <button class="button cart-button">
           <img src="images/cart.svg" alt="cart icon" width="18" class="button__icon" />
-          <span class="button__text">Cart</span>
+          <span class="button__text cart-button__text">Cart</span>
         </button>
       </div>
-    </div>
+    </div><!-- /.cart-wrapper -->
     <!-- /.row -->
   </header>
   <div class="slider swiper-container">
@@ -61,9 +64,9 @@
           <div class="row">
             <div class="col-10 col-xl-4 offset-1">
               <span class="slide__label label">Bestseller</span>
-              <h2 class="slide__title">Sweater Choker Neck</h2>
+              <h2 class="slide__title">Sweater Choker Neck</h2>
               <p class="slide__text">
-                Women’s pearl basic knit sweater with a round neck. 
+                Women’s pearl basic knit sweater with a round neck. 
                 Available in several colours. Free shipping to stores.
               </p>
               <button class="slide__buy-button button">
@@ -84,7 +87,7 @@
               <span class="slide__label label">New</span>
               <h2 class="slide__title">New Original Sweater</h2>
               <p class="slide__text">
-                Women’s pearl basic knit sweater with a round neck. 
+                Women’s pearl basic knit sweater with a round neck. 
                 Available in several colours. Free shipping to stores.
               </p>
               <button class="slide__buy-button button">
@@ -281,7 +284,7 @@
         </div>
         <!-- /.col-3 -->
         <div class="col-xl-2 col-sm-6 mt-3 mt-sm-0 footer__copyright">
-          © 2019 Universal UI Kit
+          © 2020 Universal UI Kit
         </div>
         <!-- /.col-2 -->
       </div>

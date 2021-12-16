@@ -39,6 +39,12 @@ a:hover {
   padding: 0;
 }
 
+.navigation--vertical {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
 .navigation__link {
   text-decoration: none;
   text-transform: uppercase;
@@ -53,6 +59,31 @@ a:hover {
 }
 .navigation__link:hover {
   color: #4592FF;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: rgba(0,0,0,.55);
+  border-color: rgba(0,0,0,.1);
+
+  transition: box-shadow .15s ease-in-out;
+}
+
+.navbar-toggler__icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  background: url("../images/burger.svg");
 }
 
 .slider {
@@ -457,4 +488,17 @@ a:hover {
     padding-bottom: 20px;
   }
 
+}
+
+@media (max-width: 380px) {
+  .cart-button__text {
+    display: none;
+  }
+  .navbar-toggler {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .navigation--vertical {
+    margin-top: 0.5rem;
+  }
 }
